@@ -410,7 +410,7 @@ public class TSP {
 					map.repaint();						// Final version of the map printed
 				} catch (Exception err) {				// In the case of an error, it is expected that it is a wrong input
 					outputBox.setText("Invalid input. Information refused");
-					JOptionPane.showMessageDialog(new JFrame(), "Please make sure that everything is separated properly by a ',' and the orders as separated by a new line!", "Error",JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(new JFrame(), "Please make sure that everything is separated properly by a ',' and the orders are separated by a new line!", "Error",JOptionPane.ERROR_MESSAGE);
 				}
 			} else if(src == startingPointBtn) {		// Used to open the window that is used to change the starting location
 				startingLatBox.setText(Double.toString(startingLat));	// Sets the values in the text boxes with default values
