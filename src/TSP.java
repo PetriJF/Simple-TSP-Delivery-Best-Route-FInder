@@ -595,7 +595,7 @@ public class TSP {
 					node = 3;
 					testsConducted++;
 
-					while(node < locationCount) {				// Neirest Neighbor Again
+					while(node < locationCount) {				// Nearest Neighbor Again
 						min = Double.MAX_VALUE;
 						top = tempOrder[node-1];
 						
